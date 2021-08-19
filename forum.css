@@ -1,0 +1,78 @@
+html {
+	font-family: Helvetica, Arial, sans-serif;
+	padding:15x;
+}
+
+#header {
+	position: absolute;
+	top: 10px;
+	left: 200px;
+	width: 1000px;
+	height: 200px;
+	padding:15px;
+}
+
+#forumposts{
+	position: absolute;
+	top: 10px;
+	left: 200px;
+	width: 1000px;
+	height: 500px;
+	background-color: #e8f0ff;
+	overflow-y: scroll;
+	padding:15px;
+	border-radius: 15px;
+}
+
+#sidebar {
+	position: absolute;
+	top: 250px;
+	left: 25px;
+	width:150px;
+	height: 100%;
+	background-color: #85b3fc;
+	font-color: white;
+	padding:15px;
+	border-radius: 15px;
+}
+
+#sendpost{
+	position: absolute;
+	top: 550px;
+	left: 200px;
+	width: 1000px;
+	height: 200px;
+	padding:15px;
+	border-radius: 15px;
+}
+
+.postdiv {
+	border: 2px solid black;
+	padding:15px;
+	margin:10px;
+}
+
+span {
+	font-size: 20px;
+	font-weight: bold;
+	color: blue;
+}
+
+reply {
+	position: absolute;
+	margin: 5px;
+	float:right;
+}
+
+#lastvisited {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 180px;
+}
+
+.replytext {
+	color: red;
+	font-style: italic;
+	font-size: 10pt;
+}
